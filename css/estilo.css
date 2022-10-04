@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    flex: 20%;
+    margin-left: 10%;
+    /* border: 1px solid red; */
+    text-align: left;
+}
+
+.logo h1{
+    color: #180f4a;
+    font-size: 34px;
+}
+
+.menu{
+    flex: 70%;
+    /* border: 3px solid green; */
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: #180f4a;
+    text-decoration: none;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color: #ff2978;
+    border-top: 4px solid #180f4a;
+}
+
+#botao{
+    background: #180f4a;
+    padding: 10px 25px;
+    color:white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover{
+    border: none;
+    background: #ff2978;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 1px solid red; */
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #180f4a;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p{
+    color: gray;
+    text-align: left;
+}
+
+.contact-btn{
+    display: inline-block;
+    background: #ff2978;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover{
+    background: #180f4a;
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 1px solid greenyellow; */
+    text-align: center;
+}
+
+section{
+    margin-top: 80px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    margin-right: 5%;
+    /* height: 400px; */
+    text-align: center;
+    padding: 5%;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    color: #180f4a;
+
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 2px solid #ff2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.text-oculto{
+    display: none;
+}
+
+.card:hover{
+    background: #ff2978;
+    color: white;
+    padding: 40px;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .text-oculto{
+    display: block;
+}
+
+footer{
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg,#180F4A,#090422,black);
+    text-align: center;
+    border-top: 5px solid #ff2978;
+}
+
+.logo-rodape{
+    padding: 100px;
+
+}
+
+.agencia{
+    color: white;
+    font-size: 34px;
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 100px;
+}
